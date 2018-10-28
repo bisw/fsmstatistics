@@ -15,12 +15,14 @@ body {
   padding: 10px;
 }
 
-#header .row {
-  width: 94%;
-  margin: auto;
+#footer {
+  padding: 30px 10px 50px;
+  background: cadetblue;
 }
 
-#main-wrapper .row {
-  width: 90%;
+#header .row,
+#main-wrapper .row,
+#footer .row {
+  width: 85%;
   margin: auto;
 }
