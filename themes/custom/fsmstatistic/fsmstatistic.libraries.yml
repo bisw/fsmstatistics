@@ -2,3 +2,10 @@ global-styling:
   css:
     theme:
       css/style.css: {}
+      css/style-mobile.css: {}
+      css/style-tablet.css: {}
+  js:
+    js/fsmstatistic.js: {}
+  dependencies:
+    - bootstrap/drupal.bootstrap
+    - bootstrap/attributes

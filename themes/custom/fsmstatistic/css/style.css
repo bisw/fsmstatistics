@@ -1,3 +1,26 @@
 /**
  * Place your custom styles here.
  */
+
+body {
+  margin: 0;
+}
+
+#header {
+  padding: 30px 10px 50px;
+  background: #fc3;
+}
+
+#main-wrapper {
+  padding: 10px;
+}
+
+#header .row {
+  width: 94%;
+  margin: auto;
+}
+
+#main-wrapper .row {
+  width: 90%;
+  margin: auto;
+}
