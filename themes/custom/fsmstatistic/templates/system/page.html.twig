@@ -54,13 +54,12 @@
   <div id="page">
     <header id="header" class="header" role="banner" aria-label="{{ 'Site header'|t }}">
       <div class="row">
-        <div class="col-sm-12 col-md-6 col-lg-6">
+        <div class="col-sm-12 col-md-9 col-lg-9">
           {{ page.header }}
         </div>
-        <div class="col-sm-12 col-md-6 col-lg-6">
+        <div class="col-sm-12 col-md-3 col-lg-3">
           {{ page.secondary_menu }}
         </div>
-        {{ page.primary_menu }}
       </div>
       <div class="row">
         <div class="col-sm-12 col-md-12 col-lg-12">
@@ -88,7 +87,7 @@
     <div id="main-wrapper" role="main" class="main-container {{ container }} js-quickedit-main-content">
       <div class="row">
         {{ page.breadcrumb }}
-        <main id="content" class="column main-content" role="main">
+        <main id="content" class="column main-content col-sm-12 col-md-12 col-lg-12" role="main">
           <section class="section">
             <a id="main-content" tabindex="-1"></a>
             {{ page.content }}
@@ -121,7 +120,7 @@
       </div>
     {% endif %}
 
-    <footer class="site-footer">
+    <footer id="footer" class="site-footer">
       <div class="layout-container">
         {% if page.footer_first or page.footer_second or page.footer_third or page.footer_fourth %}
           <div class="site-footer__top clearfix">
